@@ -1,4 +1,5 @@
 .App {
+  background-color: rgb(119, 0, 255);
   text-align: center;
 }
 
@@ -6,7 +7,74 @@
   height: 40vmin;
   pointer-events: none;
 }
+.Todoform{
+  color: red;
+}
+.TodoWrapper{
+  background-color: #282c34;
+  height: 100vh;
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+} 
+.TodoWrapper h1{
+  color: #fff;
+  padding-top: 5%;
+}
+.todo-input{
+  width: 45%;
+  height: 5vh;
+  background-color: #fff;
+  font-size: 15px;
+  text-align: center;
+  border: 2px solid rgb(119, 0, 255);
+  outline: 0;
+}
+button{
+  height: 6vh;
+  color: #fff;
+  background-color: rgb(119, 0, 255);
+}
+.todo-inputTwo{
+  width: 43%;
+  height: 5vh;
+  background-color: #fff;
+  font-size: 15px;
+  text-align: center;
+  outline: 0;
+  border: 2px solid rgb(119, 0, 255);
+  margin-top: 20px;
 
+}
+.Todo{
+  background-color: rgb(119, 0, 255);
+  width: 53%;
+  height: 6vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  padding-left: 20px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.Todo p{
+  color: #fff;
+  margin-top: 5px;
+}
+.font{
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  margin-top: 5px;
+}
+.edit{
+  color: #fff;
+}
+.trash{
+  color: #fff;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
